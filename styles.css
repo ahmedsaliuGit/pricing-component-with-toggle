@@ -87,6 +87,10 @@ main {
   border-radius: 34px;
 }
 
+.slider:hover {
+  opacity: 0.6;
+}
+
 .slider:before {
   position: absolute;
   content: "";
@@ -199,14 +203,23 @@ input:checked + .slider:before {
   letter-spacing: 1px;
 }
 
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid hsl(237, 63%, 64%);
+  color: hsl(237, 63%, 64%);
+  background: #fff;
+}
+
 .btn-pro {
   background: #fff;
   color: hsl(237, 63%, 64%);
 }
 
-.btn:hover {
-  opacity: 0.6;
+.btn-pro:hover {
   cursor: pointer;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: hsl(237, 63%, 64%);
 }
 
 @media (min-width: 1000px) {
